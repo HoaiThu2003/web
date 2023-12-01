@@ -1,0 +1,68 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+  
+
+}
+html{
+   font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+    background-color:#FFF6F6 ;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+
+}
+
+.header__menu{
+ 
+    list-style-type: none;
+   text-decoration: none;
+}
+.header__menu__item{
+    display: inline-block;
+  
+  
+
+}
+.header__menu__item.menu{
+    margin: 0 30px;
+}
+.header__menu__item.nn:hover{
+background-color: #FFF6F6;
+
+}
+
+.header__menu__item_text{
+    text-decoration: none;
+    color: black;
+}
+.header__menu__item:hover{
+    background-color: antiquewhite;
+}
+.header__menu__image{
+    width: 70px;
+}
+img{
+    width: 85px;
+    height: auto;
+   
+}
+.ngongu{
+    width: 30px;
+    height: auto;
+    
+}
+
+
+
+ 
